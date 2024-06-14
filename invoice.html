@@ -1,0 +1,84 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Invoice</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .invoice {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      text-align: center;
+    }
+    .customer, .items, .total {
+      margin-top: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th , td {
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="invoice">
+      <div class="header">
+        <h1 style="color: #336699;">Invoice</h1>
+        <p>Date: May 31, 2024</p>
+      </div>
+      <div class="customer">
+        <h2>Customer Information</h2>
+        <p>Name: Malaben </p>
+        <p>Email: </p>
+        <p>Phone: </p>
+      </div>
+      <div class="items">
+        <h2>Items</h2>
+        <table>
+          <thead>
+            <tr>
+              <th style="background-color: #336699; color: #fff;">Item</th>
+              <th style="background-color: #336699; color: #fff;">Quantity</th>
+              <th style="background-color: #336699; color: #fff;">Price</th>
+              <th style="background-color: #336699; color: #fff;">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td>Ladies Chappal</td>
+          <td>5</td>
+          <td>$500.00</td>
+          <td>$2500.00</td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+      <div class="total">
+        <h2>Total</h2>
+        <p>$2500.00</p>
+      </div>
+    </div>
+    </body>
+    </html>
+    
